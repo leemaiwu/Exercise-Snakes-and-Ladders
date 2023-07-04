@@ -21,6 +21,8 @@ const snakesAndLadders = function(board, dice) {
     }
 }
 
+// All but the first instance return the correct numbers.
+// The first console.log should return 10 but the result is 6
 console.log(snakesAndLadders([0, 0, 3, 0, 0, 0, 0, -2, 0, 0, 0], [2, 1, 5, 1, 5, 4])) // 10
 console.log(snakesAndLadders([0, 0, 0, 0, 0], [6, 6, 6, 6, 6, 6])) // 0
 console.log(snakesAndLadders([0, 0, 0, 0, 0], [])) // 0
